@@ -1,0 +1,4 @@
+name: pulumi_repro
+description: Infra for batch jobs - aggregations + administrative 
+runtime: python
+main: pulumi_repro/
