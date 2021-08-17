@@ -41,3 +41,10 @@ Diagnostics:
     ModuleNotFoundError: No module named 'pulumi_repro'
     error: an unhandled error occurred: Program exited with non-zero exit code: 1
 ```
+
+The above seems to be using the wrong python -> `/Users/hj/.pyenv/versions/3.8.6/lib/python3.8/runpy.py` - but the python it should be using is;
+
+```
+➜  pulumi-repro git:(main) ✗ poetry env list --full-path
+/Users/hj/Library/Caches/pypoetry/virtualenvs/pulumi-repro-j_azsvbd-py3.8 (Activated)
+```
